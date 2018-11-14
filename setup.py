@@ -23,7 +23,7 @@ setup(name='carpi-daemoncommons',
       author='Raphael "rGunti" Guntersweiler',
       author_email='raphael@rgunti.ch',
       license='MIT',
-      packages=['gpsdaemon'],
+      packages=['daemoncommons'],
       install_requires=[
           'wheel'
       ],
