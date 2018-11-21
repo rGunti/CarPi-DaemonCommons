@@ -10,7 +10,7 @@ with open('README.md', 'r') as f:
     long_description = f.read()
 
 setup(name='carpi-daemoncommons',
-      version='0.1.0',
+      version='0.2.0',
       description='A library providing utilities for writing Python daemons.',
       long_description=long_description,
       url='https://github.com/rGunti/CarPi-DaemonCommons',
@@ -23,8 +23,9 @@ setup(name='carpi-daemoncommons',
       author='Raphael "rGunti" Guntersweiler',
       author_email='raphael@rgunti.ch',
       license='MIT',
-      packages=['gpsdaemon'],
+      packages=['daemoncommons'],
       install_requires=[
+          'carpi-commons',
           'wheel'
       ],
       zip_safe=False,
