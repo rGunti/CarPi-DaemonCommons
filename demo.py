@@ -7,7 +7,7 @@ from logging import Logger
 from time import sleep
 
 from daemoncommons.daemon import Daemon, DaemonRunner
-from daemoncommons.log import logger
+from carpicommons.log import logger
 
 
 class DemoDaemon(Daemon):

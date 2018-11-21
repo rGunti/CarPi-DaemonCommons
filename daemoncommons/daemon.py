@@ -5,12 +5,11 @@ Licensed under MIT
 """
 
 from configparser import ConfigParser
-
-from daemoncommons.log import log_unhandled_exception, logger, configure_logging
-from .errors import ExitCodes, CarPiExitException, ConfigFileLoadError
-
 from os import environ
 from sys import stderr
+
+from carpicommons.errors import ExitCodes, CarPiExitException, ConfigFileLoadError
+from carpicommons.log import log_unhandled_exception, configure_logging
 
 
 class Daemon(object):
